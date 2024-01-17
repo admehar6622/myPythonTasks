@@ -1,4 +1,5 @@
 name = "adnan"
 age = 33
 
-print( f"My name is {name} and my age is {age}")
+Greetings = f"My name is {name} and my age is {age}"
+print(Greetings)
