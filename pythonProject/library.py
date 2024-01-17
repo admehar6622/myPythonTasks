@@ -9,3 +9,19 @@ print(my_dic.values())
 
 for key in my_dic.keys():
     print(my_dic[key])
+
+
+    for i in range(9):
+        if i == 5:
+            break
+        print(i)
+    else:
+        print("Loop successfully run")
+
+    b = 1
+    while b <= 9:
+        if b == 5:
+            break
+        print(b)
+        b = b + 1
+
