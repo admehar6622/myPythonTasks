@@ -1,8 +1,16 @@
-a = int(input("Enter your number "))
 
-try:
-    if (a <= 20):
-            print("Your number is under 20")
+def func1():
+    try:
+        l = [1,4,5,6,4,3,4]
+        i = int(input("Input your number "))
+        print(l[i])
+        return 1
+    except:
+        print("There is some error accured")
+        return 0
+    finally:
+        print("I always exucuted")
 
-else:
-        print("Your age is more then 20")
+
+x = func1()
+print(x)
